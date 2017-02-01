@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
 # Inherit some common OmegaOS stuff.
-$(call inherit-product, vendor/omega/config/common.mk)
+$(call inherit-product, vendor/omega/common.mk)
 
 PRODUCT_NAME := omega_bacon
 PRODUCT_DEVICE := bacon
